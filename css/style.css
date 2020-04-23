@@ -1,0 +1,25 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.pesron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+}
+
+.avatar {
+    width: 200px;
+    height: 260px;
+    margin: 20px 0;
+}
+
+.position {
+    margin-bottom: 10px;
+}
